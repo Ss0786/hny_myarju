@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy New Year Arju 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="glow">🎆 Happy New Year 🎆</h1>
+    <h2 class="year">2026</h2>
+
+    <!-- 💖 HER NAME -->
+    <h2 class="name-glow">💖 Arju 💖</h2>
+
+    <div id="countdown" class="countdown"></div>
+
+    <p class="hint">Tap all 3 to unlock my heart 💌</p>
+
+    <div class="buttons">
+      <button class="tap-btn">Tap 💕</button>
+      <button class="tap-btn">Tap 💖</button>
+      <button class="tap-btn">Tap 💞</button>
+    </div>
+
+    <button id="revealBtn" class="hidden">🎁 Open My Love 🎁</button>
+
+    <div id="messageBox" class="hidden">
+      <img 
+        src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif"
+        class="kiss-gif"
+        alt="Kiss"
+      />
+      <div id="message"></div>
+    </div>
+
+    <!-- 🎶 Background Music -->
+    <div id="music" class="hidden">
+      <iframe
+        id="sc-player"
+        width="100%"
+        height="300"
+        frameborder="no"
+        allow="autoplay"
+        src="">
+      </iframe>
+    </div>
+  </div>
+
+  <canvas id="fireworks"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
